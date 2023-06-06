@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="favicon.ico" />
+     <script src="https://kit.fontawesome.com/af913e9176.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="B.jpg " class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i></a>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i></a>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Amar Gupta</span><br> From Gonda</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---about---- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="B.jpg" height="600px" width="450px">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+               
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione odit fuga numquam quis, cum inventore repellendus dolore adipisci quo magni consectetur molestias aliquam quia magnam nisi repellat possimus vitae ab nostrum ullam nulla deserunt eveniet! Pariatur, quos distinctio. Dolorem nobis quia illo ab tenetur fuga ipsa placeat, necessitatibus dolore assumenda accusantium ipsum ratione minima harum! Eos repellendus rem, ullam dolore hic natus perspiciatis et?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia, exercitationem quod quas quaerat debitis nisi saepe perspiciatis doloribus dolore nostrum eveniet dolorum ipsum modi culpa, dignissimos, inventore quos labore corrupti dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat unde at eaque eius non nobis. Culpa deleniti at iusto quae eveniet repellendus id voluptatibus ea soluta magnam saepe deserunt, omnis modi officia laboriosam, minus minima, fugiat quam dolor dolore odit. Provident at assumenda esse sed saepe explicabo dolor veritatis. Doloremque maiores quas, et quibusdam incidunt delectus totam obcaecati, eos voluptas, veniam eum? Voluptas, ex?</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                    <li><span>Web Development</span><br>Designing Web/App interface</li>
+                    <li><span>App Development</span><br>Designing Web/App interface</li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="experience">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                    <li><span>Web Development</span><br>Designing Web/App interface</li>
+                    <li><span>App Development</span><br>Designing Web/App interface</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023-Current</span><br>UI/UX Design Training at Akgec</li>
+                    <li><span>Web Development</span><br>Designing Web/App interface</li>
+                    <li><span>App Development</span><br>Designing Web/App interface</li>
+                </ul>
+            </div>
+            
+            </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------services-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum . Recusandae accusantium necessitatibus doloremque quam ut totam sint mollitia fugiat molestias dolorem, sit facilis ipsum aut! Fugit delectus amet asperiores! Quam facere, adipisci illo officia animi voluptate amet.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum . Recusandae accusantium necessitatibus doloremque quam ut totam sint mollitia fugiat molestias dolorem, sit facilis ipsum aut! Fugit delectus amet asperiores! Quam facere, adipisci illo officia animi voluptate amet.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum . Recusandae accusantium necessitatibus doloremque quam ut totam sint mollitia fugiat molestias dolorem, sit facilis ipsum aut! Fugit delectus amet asperiores! Quam facere, adipisci illo officia animi voluptate amet.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------portfolio------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="H.png" alt="" height="500px" width="350px">
+                    <div class="layer">
+                        <h3>University Website</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat similique nam optio voluptas tempore facere?</p>
+                        <a href="#">icon</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="j.png" alt="" height="500px" width="350px">
+                    <div class="layer">
+                        <h3>Online Food Delivery</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat similique nam optio voluptas tempore facere?</p>
+                        <a href="#">icon</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="i.png" alt="" height="500px" width="350px">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat similique nam optio voluptas tempore facere?</p>
+                        <a href="#">icon</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/2115425Amar" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>amarguptagupta390ag793790@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8601082965</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/amar_gupta.02?utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/amar-gupta-381701241"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="html.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name ="Name" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Amar.........</p>
+        </div>
+    </div>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+
+    </script>
+
+<script>
+   
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+   
+</body>
+</html>
